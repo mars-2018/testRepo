@@ -44,6 +44,7 @@ section {
   max-height:       12.5rem;
   height:           100%;
   background-color: cadetblue;
+  cursor:           pointer;
 }
 
 aside {
