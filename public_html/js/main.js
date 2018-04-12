@@ -8,7 +8,6 @@ function init() {
   }
 }
 
-
 function container() {
   this.style.backgroundColor = setRGB();
 }
@@ -16,7 +15,7 @@ function container() {
 function setRGB() {
   var retVal = '#';
   
-  for (var i = 0; i <= 2; i++) {
+  for (var i = 0; i < 3; i++) {
     retVal += (Math.floor(Math.random(128) * 100 + 64)).toString(16); //Pastel-Colors
   }
   
